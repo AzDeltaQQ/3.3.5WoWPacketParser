@@ -9,7 +9,6 @@ from PyQt6.QtWidgets import (QApplication, QMainWindow, QVBoxLayout, QWidget,
                              QTextEdit, QPushButton, QHBoxLayout, QLineEdit, QLabel)
 from PyQt6.QtCore import pyqtSignal, QObject, QThread, pyqtSlot, QTimer, QEventLoop # Import QTimer and QEventLoop
 
-# --- Import necessary parts from get_wow_keys_frida.py --- 
 # (Or reorganize into a shared library later)
 PROCESS_NAME = "Wow.exe" 
 INIT_CRYPTO_HOOK_ADDRESS = 0x466BF0
