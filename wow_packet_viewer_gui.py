@@ -49,7 +49,7 @@ except Exception as e:
     smsg_opcodes = {} 
     cmsg_opcodes = {}
 
-# Frida Script (Copied and adapted from get_wow_keys_frida.py)
+# Frida Script
 javascript_code = f"""
 'use strict';
 
