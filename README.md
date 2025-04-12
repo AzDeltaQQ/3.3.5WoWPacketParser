@@ -4,4 +4,4 @@ pip install -r requirements.txt
 
 python wow_packet_viewer_gui.py
 
-you must run and attach to wow before you log in to your account due to the server client handshake to get the keys to decode packets... (afaik atleast) it works this way. 
+you must run and attach to wow before you log in to your account due to the server client handshake to get the keys to decode packets... it works this way. AFAIK this is the best method . 
