@@ -18,7 +18,7 @@ OPCODES_FILE_PATH = os.path.join(SCRIPT_DIR, "Opcodes.h") # <<< Relative path
 SEND_STATE_OFFSET_CONST = 0x148
 RECV_STATE_OFFSET_CONST = 0x24A
 
-# Opcode Loading Logic (from get_wow_keys_frida.py)
+# Opcode Loading Logic
 smsg_opcodes = {}
 cmsg_opcodes = {}
 try:
